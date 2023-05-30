@@ -1,13 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class Timer : MonoBehaviour
 {
-    [SerializeField] float timeToAnswerQuestion = 30f;
-    [SerializeField] float timeToShowCorrectAnswer = 10f;
-    public bool isAnsweringQuestion = false;
+    [SerializeField] float timeToAnswerQuestion = 15f;
+    [SerializeField] float timeToShowCorrectAnswer = 7f;
+    public bool isAnsweringQuestion;
     public float fillFraction;
     public bool loadNextQuestion;
     float timerValue;
@@ -49,7 +46,5 @@ public class Timer : MonoBehaviour
                 loadNextQuestion = true;
             }
         }
-
-        Debug.Log(timerValue);
     }
 }
