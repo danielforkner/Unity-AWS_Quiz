@@ -18,4 +18,4 @@ MonoBehaviour:
   - ECS EC2 Launch Type
   - Amazon VPC
   - Amazon S3
-  correctAnswerIndex: 0
+  correctAnswerIndex: 3
