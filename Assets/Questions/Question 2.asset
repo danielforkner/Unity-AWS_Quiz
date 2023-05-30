@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 596069fb8d2964b9b97d0fb8cd462567, type: 3}
   m_Name: Question 2
   m_EditorClassIdentifier: 
-  question: Enter new question text here
+  question: A Region has at least how many Availability Zones?
   answers:
-  - 
-  - 
-  - 
-  - 
-  correctAnswerIndex: 0
+  - 1
+  - 2
+  - 3
+  - 4
+  correctAnswerIndex: 1
